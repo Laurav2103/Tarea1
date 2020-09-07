@@ -57,32 +57,19 @@ computador , de tal forma que los datos se conservan aun asi este no se encuentr
 
 \textbf{Memoria caché:}
 
+Esta memoria basicamente lo que hace es almacenar ciertas direcciones en el disco que son utilizadas por la memoria RAM para realizar determinadas funciones haciendo que las solucitudes futuras puedan ser atendidas con mayor rapidez. Está divida por niveles 1,2 y 3 en los que se ubican de forma descendente en cuanto a la velocidad pero de forma ascendente si se habla de capacidad, es decir la memoria caché de nivel 3 es mas lenta que las otras dos pero podría tener mayor capacidad.
+
+\section{¿Cómo se gestiona la memoria de un computador?} \label{contenido}
+La gestión de la memoria se trata de proveer mecanismos para asignar secciones de memoria a los programas que lo solicitan,  y a la vez, liberar las secciones de memoria
+que ya no se utilizan para que estén disponibles para otros programas. Un controlador es quien se encarga de gestionar cada tarea de la memoria , es quien comunica las instrucciones del microprocesador e interviene en la transferencia de información que llega y que sale d
+de la memoria , a la vez que con su clock proporciona determinada velocidad al procesar.
+
 El paquete también agrega un comportamiento especial 
 a <<estas marcas para hacer citas textuales>> tal como 
 lo indican las reglas de la RAE. \cite{dirac}
 \cite{knuthwebsite}
 
-\begin{lstlisting}
-#include <stdio.h>
-#define N 10
-/* Block
- * comment */
 
-int main()
-{
-    int i;
-
-    // Line comment.
-    puts("Hello world!");
-    
-    for (i = 0; i < N; i++)
-    {
-        puts("LaTeX is also great for programmers!");
-    }
-
-    return 0;
-}
-\end{lstlisting}
 
 A continuación se presenta el logo de C++ Figura (\ref{fig:cpplogo})
 
